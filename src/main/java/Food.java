@@ -1,4 +1,6 @@
-public class Food {
+import java.io.Serializable;
+
+public class Food implements Serializable {
     String name;
     int cost;
     int calories;

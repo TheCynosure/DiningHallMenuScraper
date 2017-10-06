@@ -1,6 +1,7 @@
+import java.io.Serializable;
 import java.util.LinkedList;
 
-public class SubMenu {
+public class SubMenu implements Serializable {
     public String menuName;
     public LinkedList<Food> foods;
 

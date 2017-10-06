@@ -1,12 +1,13 @@
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.LinkedList;
 
-public class Menu {
+public class Menu implements Serializable {
     public String menuName;
-    public ArrayList<SubMenu> subMenus;
+    public LinkedList<SubMenu> subMenus;
 
     public Menu(String menuName) {
         this.menuName = menuName;
-        this.subMenus = new ArrayList<>();
+        this.subMenus = new LinkedList<>();
     }
 }

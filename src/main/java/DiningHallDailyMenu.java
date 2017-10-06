@@ -2,6 +2,8 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 
+import java.io.*;
+
 public class DiningHallDailyMenu extends DailyMenu {
     //Dining Halls have 4 menus.
     //Breakfast
@@ -11,8 +13,8 @@ public class DiningHallDailyMenu extends DailyMenu {
     private static String menuNames[] = new String[] {"breakfast_fp", "lunch_fp", "dinner_fp", "grabngo", "latenight_fp"};
     private static String realMenuNames[] = new String[] {"Breakfast", "Lunch", "Dinner", "Grab n'Go", "Late Night"};
 
-    public DiningHallDailyMenu() {
-
+    public DiningHallDailyMenu(LOCATION menuLocation) {
+        super(menuLocation);
     }
 
     @Override
