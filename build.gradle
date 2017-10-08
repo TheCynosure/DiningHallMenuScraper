@@ -2,6 +2,7 @@ group 'io.github.thecynosure'
 version '1.0'
 
 apply plugin: 'java'
+apply plugin: 'maven'
 
 sourceCompatibility = 1.8
 
@@ -12,19 +13,4 @@ repositories {
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
     compile 'org.jsoup:jsoup:1.10.3'
-}
-
-jar {
-    manifest {
-        attributes 'Implementation-Title': 'DiningHallMenuScraper',
-                'Implementation-Version': version
-    }
-}
-
-uploadArchives {
-    repositories {
-        flatDir {
-            dirs 'jars'
-        }
-    }
 }
