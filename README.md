@@ -1,6 +1,5 @@
 # Dining Hall Menu Scraper
-[![Release](https://jitpack.io/v/thecynosure/DiningHallMenuScraper.svg)]
-(https://jitpack.io/#thecynosure/DiningHallMenuScraper)
+![Release](https://jitpack.io/v/thecynosure/DiningHallMenuScraper.svg)
 
 Scrapes Information from the UMass Dining Hall Webpages.
 
