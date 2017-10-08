@@ -1,3 +1,5 @@
+package main.java;
+
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -8,6 +10,6 @@ public class Menu implements Serializable {
 
     public Menu(String menuName) {
         this.menuName = menuName;
-        this.subMenus = new LinkedList<>();
+        this.subMenus = new LinkedList<SubMenu>();
     }
 }

@@ -1,3 +1,6 @@
+package main.java;
+
+import java.awt.*;
 import java.io.*;
 import java.util.LinkedList;
 
