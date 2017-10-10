@@ -1,5 +1,3 @@
-package main.java;
-
 import java.awt.*;
 import java.io.*;
 import java.util.LinkedList;
@@ -30,7 +28,7 @@ public abstract class DailyMenu {
      * @param content the html content of the menu page.
      *
      */
-    abstract void parseFromHtml(String content);
+    public abstract void parseFromHtml(String content);
 
     /**
      *
